@@ -37,7 +37,7 @@ if uploaded_file is not None:
 
     # Predict the image
     prediction = model.predict(image_array)
-    st.write(prediction)
+    # st.write(prediction)
 
     # Display prediction result
     if prediction[0][1] > prediction[0][0]:
